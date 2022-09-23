@@ -1,4 +1,4 @@
-import styled from 'styled-components/native';
+import styled from "styled-components/native";
 
 export const Container = styled.TouchableOpacity`
   width: 260px;
@@ -17,9 +17,9 @@ export const Thumbnail = styled.ImageBackground`
 `;
 
 export const ViewersCount = styled.Text`
-  color: ${props => props.theme.colors.white};
+  color: ${(props) => props.theme.colors.white};
   font-size: 13px;
-  font-family: ${props => props.theme.fonts.bold};
+  font-family: ${(props) => props.theme.fonts.bold};
 `;
 
 export const Info = styled.View`
@@ -46,13 +46,13 @@ export const InfoText = styled.View`
 `;
 
 export const Title = styled.Text`
-  color: ${props => props.theme.colors.white};
+  color: ${(props) => props.theme.colors.white};
   font-size: 15px;
-  font-family: ${props => props.theme.fonts.bold};
+  font-family: ${(props) => props.theme.fonts.bold};
 `;
 
 export const Streamer = styled.Text`
-  color: ${props => props.theme.colors.gray};
+  color: ${(props) => props.theme.colors.gray};
   font-size: 13px;
-  font-family: ${props => props.theme.fonts.regular};
+  font-family: ${(props) => props.theme.fonts.regular};
 `;
